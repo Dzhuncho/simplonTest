@@ -42,6 +42,10 @@ header li{
    align-items: flex-end;
    
 }
+
+
+
+
 #ninho{
     margin-top: 30px;
     display: flex;
@@ -338,6 +342,70 @@ h3{
 .nav-container input[type="checkbox"]:checked ~ .logo{
   display: none;
 }
+
+@media screen and (max-width: 1000px) {
+
+
+  #imgninho {
+    height: 200px;
+    width: 250px;
+  align-items: center;
+   
+  }
+  
+  #pninho{
+    font-style: normal;
+      font-weight: 200;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      align-items: center;
+  }
+
+  #tninho{
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+  }
+
+  #ninho{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #realisation{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #realisation h1{
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 200;
+font-size: 34px;
+line-height: 25px;
+padding-top: 25px;
+}
+#realisation ul{
+
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 39px;
+padding: 20px;
+}
+.card{
+ display: none;
+}
+
+
+
+
+
+  
+  }
 
 
 
